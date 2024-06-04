@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  
+}
+.App{
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+}
+
+.Navbar {
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+.Left {
+  border: 1px solid wheat;
+  padding: 200px 300px 200px 300px;
+  display: flex;
+  justify-content: center;
+  
+}
+/* .Left:hover {
+  background-color: wheat;
+  color: black;
+  text: black
+} */
+.Leftimg img {
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.LeftText p {
+  margin: 0; /* Elimina el margen por defecto del párrafo */
+} 
